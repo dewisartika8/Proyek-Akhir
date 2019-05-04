@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Immanuel Sianturi">
+
+    <link href="assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="assets/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/zabuto_calendar.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+
+    <link rel="stylesheet" href="assets/css/trackpad-scroll-emulator.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <title>Cerita Rakyat Sumatera Utara</title>
+
+</head>
+
+<body class="homepage">
+<div class="page-wrapper">
+    <header id="page-header">
+        <nav>
+            <div class="left">
+                <a href="index.html" class="brand"><img src="assets/img/logo.png" alt=""></a>
+            </div>
+            <!--end left-->
+            <div class="right">
+                <div class="primary-nav has-mega-menu">
+                    <ul class="navigation">
+                        <li class="active"><a href="#nav-homepages">Home</a></li>
+                        <li><a href="blog.html">Pariwisata</a></li>
+						<li><a href="blog.html">Budaya</a></li>
+						<li><a href="blog.html">Event</a></li>
+						<li><a href="contact.html">About</a></li>
+                    </ul>
+                    <!--end navigation-->
+                </div>
+                <!--end primary-nav-->
+                <div class="secondary-nav">
+                    <a href="#" data-modal-external-file="modal_sign_in.php" data-target="modal-sign-in"><i class="fa fa-sign-in"></i><span>Sign In</span></a>
+                    <a href="#" class="promoted" data-modal-external-file="modal_register.php" data-target="modal-register"><i class="fa fa-user"></i><span>Register</span></a>
+                </div>
+                <!--end secondary-nav-->
+                <a href="#" class="btn btn-primary btn-small btn-rounded icon shadow add-listing" data-modal-external-file="modal_submit.php" data-target="modal-submit"><i class="fa fa-plus"></i><span>Tambah Cerita</span></a>
+                <div class="nav-btn">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <!--end nav-btn-->
+            </div>
+            <!--end right-->
+        </nav>
+        <!--end nav-->
+    </header>
+    <!--end page-header-->
+
+    <div id="page-content">
+        <div class="hero-section full-screen has-map has-sidebar">
+            <div class="map-wrapper">
+                <div class="geo-location">
+                    <i class="fa fa-map-marker"></i>
+                </div>
+                <div class="map" id="map-homepage"></div>
+            </div>
+            <!--end map-wrapper-->
+            <div class="results-wrapper">
+                <div class="sidebar-detail">
+                    <div class="tse-scrollable">
+                        <div class="tse-content">
+                            <div class="sidebar-wrapper"></div>
+                            <!--end sidebar-detail-content-->
+                        </div>
+                        <!--end tse-content-->
+                    </div>
+                    <!--end tse-scrollable-->
+                </div>
+                <!--end sidebar-detail-->
+                <div class="results">
+                    <div class="tse-scrollable">
+                        <div class="tse-content">
+                            <div class="section-title">
+                                <h2>Ditemukan Cerita<span class="results-number"></span></h2>
+                            </div>
+                            <!--end section-title-->
+                            <div class="results-content"></div>
+                            <!--end results-content-->
+                        </div>
+                        <!--end tse-content-->
+                    </div>
+                    <!--end tse-scrollable-->
+                </div>
+                <!--end results-->
+            </div>
+            <!--end results-wrapper-->
+
+            <div class="form search-form vertical opacity-90">
+                <div class="container">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="wrapper clearfix">
+                                    <!--end form-group-->
+                                    <div class="form-group">
+                                        <select class="form-control selectpicker" name="city">
+                                            <option value="">Pilih Daerah</option>
+                                            <option value="1">Tarutung</option>
+                                            <option value="2">Samosir</option>
+                                            <option value="3">Silaen</option>
+                                            <option value="4">Siarang-arang</option>
+                                        </select>
+                                    </div>
+                                   
+                                    <!--end form-group-->
+                                    <div class="form-group">
+                                        <button type="submit" data-ajax-response="map" data-ajax-data-file="assets/external/data_2.php" data-ajax-auto-zoom="1" class="btn btn-primary pull-right darker sa">Cari Lokasi<i class="fa fa-search"></i></button>
+                                    </div>
+                                    <!--end form-group-->
+                                </div>
+                                <!--end wrapper-->
+                            </div>
+                            <!--end col-md-4-->
+                        </div>
+                        <!--end row-->
+                    </form>
+                    <!--end form-hero-->
+                </div>
+                <!--end container-->
+            </div>
+            <!--end search-form-->
+
+        </div>
+        <!--end hero-section-->
+
+        <section class="block">
+            <div class="container">
+                <div class="center">
+                    <div class="section-title">
+                        <div class="center">
+                            <h2>Cerita Terpopuler</h2>
+                            <h3 class="subtitle">Berikut cerita terpopuler pembaca kami:</h3>
+                        </div>
+                    </div>
+                    <!--end section-title-->
+                </div>
+                <!--end center-->
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="item" data-id="1">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <div class="label label-default">Tarutung</div>
+                                    <h3>Asal Usul Nama Tarutung</h3>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/1.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="4">
+                                    <span class="stars"></span>
+                                    <span class="reviews">6 Komentar</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="#">Add to favorites</a></li>
+                                        <li><a href="#">Add to watchlist</a></li>
+                                        <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                    </div>
+                    <!--<end col-md-3-->
+                    <div class="col-md-3 col-sm-3">
+                        <div class="item" data-id="2">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <div class="label label-default">Samosir</div>
+                                    <h3>Legenda Sigale-gale</h3>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/2.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="3">
+                                    <span class="stars"></span>
+                                    <span class="reviews">13 Komentar</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="#">Add to favorites</a></li>
+                                        <li><a href="#">Add to watchlist</a></li>
+                                        <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                    </div>
+                    <!--<end col-md-3-->
+                    <div class="col-md-6 col-sm-6">
+                        <div class="item" data-id="15">
+                            <figure class="ribbon">Top</figure>
+                            <a href="detail.html">
+                                <div class="description">
+                                    <div class="label label-default">Tarutung</div>
+                                    <h3>Aek Situmandi </h3>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/3.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <figure class="circle" title="Featured"><i class="fa fa-check"></i></figure>
+                                <div class="rating-passive" data-rating="5">
+                                    <span class="stars"></span>
+                                    <span class="reviews">56 Komentar</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="#">Add to favorites</a></li>
+                                        <li><a href="#">Add to watchlist</a></li>
+                                        <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                    </div>
+                    <!--<end col-md-3-->
+                    <div class="col-md-4 col-sm-4">
+                        <div class="item" data-id="3">
+                            <figure class="ribbon">Top</figure>
+                            <a href="detail.html">
+                                <div class="description">
+                                    <div class="label label-default">Parapat</div>
+                                    <h3>Asal Usul Nama Parapat</h3>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/4.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <figure class="circle" title="Featured"><i class="fa fa-check"></i></figure>
+                                <div class="rating-passive" data-rating="5">
+                                    <span class="stars"></span>
+                                    <span class="reviews">12 Komentar</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="#">Add to favorites</a></li>
+                                        <li><a href="#">Add to watchlist</a></li>
+                                        <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                    </div>
+                    <!--<end col-md-4-->
+                    <div class="col-md-3 col-sm-3">
+                        <div class="item" data-id="4">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <div class="label label-default">Porsea</div>
+                                    <h3>Tipa-tipa</h3>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/5.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="5">
+                                    <span class="stars"></span>
+                                    <span class="reviews">43 Komentar</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="#">Add to favorites</a></li>
+                                        <li><a href="#">Add to watchlist</a></li>
+                                        <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                    </div>
+                    <!--<end col-md-3-->
+                    <div class="col-md-5 col-sm-5">
+                        <div class="item" data-id="6">
+                            <a href="detail.html">
+                                <div class="description">
+                                    <div class="label label-default">Tarutung</div>
+                                    <h3>Sejarah Pembangunan Salib Kasih</h3>
+                                </div>
+                                <!--end description-->
+                                <div class="image bg-transfer">
+                                    <img src="assets/img/items/6.jpg" alt="">
+                                </div>
+                                <!--end image-->
+                            </a>
+                            <div class="additional-info">
+                                <div class="rating-passive" data-rating="0">
+                                    <span class="stars"></span>
+                                    <span class="reviews">100 Komentar</span>
+                                </div>
+                                <div class="controls-more">
+                                    <ul>
+                                        <li><a href="#">Add to favorites</a></li>
+                                        <li><a href="#">Add to watchlist</a></li>
+                                        <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                    </ul>
+                                </div>
+                                <!--end controls-more-->
+                            </div>
+                            <!--end additional-info-->
+                        </div>
+                        <!--end item-->
+                    </div>
+                    <!--<end col-md-3-->
+                </div>
+                <!--end row-->
+                <div class="center">
+                    <a href="listing.html" class="btn btn-primary btn-light-frame btn-rounded btn-framed arrow">Lihat Semua Cerita Terpopuler</a>
+                </div>
+            <!--end center-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end block-->
+        <div class="container"><hr></div>
+        <section class="block">
+            <div class="container">
+                <div class="section-title">
+                    <div class="center">
+                        <h2>Daerah Terpopuler</h2>
+                    </div>
+                </div>
+                <!--end section-title-->
+                <div class="categories-list">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="list-item">
+                                <div class="title">
+                                    <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                                    <h3><a href="#">Tarutung</a></h3>
+                                </div>
+                                <!--end title-->
+                                <ul>
+                                    <li><a href="">Cerita Rakyat</a><figure class="count">30</figure></li>
+                                    <li><a href="">Pariwisata</a><figure class="count">20</figure></li>
+                                    <li><a href="">Budaya</a><figure class="count">14</figure></li>
+                                </ul>
+                            </div>
+                            <!--end list-item-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="list-item">
+                                <div class="title">
+                                    <div class="icon"><i class="fa fa-suitcase"></i></div>
+                                    <h3><a href="#">Samosir</a></h3>
+                                </div>
+                                <!--end title-->
+                                <ul>
+                                    <li><a href="">Cerita Rakyat</a><figure class="count">30</figure></li>
+                                    <li><a href="">Pariwisata</a><figure class="count">20</figure></li>
+                                    <li><a href="">Budaya</a><figure class="count">14</figure></li>
+                                </ul>
+                            </div>
+                            <!--end list-item-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="list-item">
+                                <div class="title">
+                                    <div class="icon"><i class="fa fa-desktop"></i></div>
+                                    <h3><a href="#">Balige</a></h3>
+                                </div>
+                                <!--end title-->
+                                <ul>
+                                    <li><a href="">Cerita Rakyat</a><figure class="count">30</figure></li>
+                                    <li><a href="">Pariwisata</a><figure class="count">20</figure></li>
+                                    <li><a href="">Budaya</a><figure class="count">14</figure></li>
+                                </ul>
+                            </div>
+                            <!--end list-item-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="list-item">
+                                <div class="title">
+                                    <div class="icon"><i class="fa fa-graduation-cap"></i></div>
+                                    <h3><a href="#">Parapat</a></h3>
+                                </div>
+                                <!--end title-->
+                                <ul>
+                                    <li><a href="">Cerita Rakyat</a><figure class="count">30</figure></li>
+                                    <li><a href="">Pariwisata</a><figure class="count">20</figure></li>
+                                    <li><a href="">Budaya</a><figure class="count">14</figure></li>
+                                </ul>
+                            </div>
+                            <!--end list-item-->
+                        </div>
+                        <!--end col-md-3-->
+                    </div>
+                    <!--end row-->
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="list-item">
+                                <div class="title">
+                                    <div class="icon"><i class="fa fa-television"></i></div>
+                                    <h3><a href="#">Siantar</a></h3>
+                                </div>
+                                <!--end title-->
+                                <ul>
+                                    <li><a href="">Cerita Rakyat</a><figure class="count">30</figure></li>
+                                    <li><a href="">Pariwisata</a><figure class="count">20</figure></li>
+                                    <li><a href="">Budaya</a><figure class="count">14</figure></li>
+                                </ul>
+                            </div>
+                            <!--end list-item-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="list-item">
+                                <div class="title">
+                                    <div class="icon"><i class="fa fa-university"></i></div>
+                                    <h3><a href="#">Pangaribuan</a></h3>
+                                </div>
+                                <!--end title-->
+                                <ul>
+                                   <li><a href="">Cerita Rakyat</a><figure class="count">30</figure></li>
+                                    <li><a href="">Pariwisata</a><figure class="count">20</figure></li>
+                                    <li><a href="">Budaya</a><figure class="count">14</figure></li>
+                                </ul>
+                            </div>
+                            <!--end list-item-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="list-item">
+                                <div class="title">
+                                    <div class="icon"><i class="fa fa-heart"></i></div>
+                                    <h3><a href="#">Garoga</a></h3>
+                                </div>
+                                <!--end title-->
+                                <ul>
+                                    <li><a href="">Cerita Rakyat</a><figure class="count">30</figure></li>
+                                    <li><a href="">Pariwisata</a><figure class="count">20</figure></li>
+                                    <li><a href="">Budaya</a><figure class="count">14</figure></li>
+                                </ul>
+                            </div>
+                            <!--end list-item-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="list-item">
+                                <div class="title">
+                                    <div class="icon"><i class="fa fa-newspaper-o"></i></div>
+                                    <h3><a href="#">Siborong-borong</a></h3>
+                                </div>
+                                <!--end title-->
+                                <ul>
+                                    <li><a href="">Cerita Rakyat</a><figure class="count">30</figure></li>
+                                    <li><a href="">Pariwisata</a><figure class="count">20</figure></li>
+                                    <li><a href="">Budaya</a><figure class="count">14</figure></li>
+                                </ul>
+                            </div>
+                            <!--end list-item-->
+                        </div>
+                        <!--end col-md-3-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end categories-list-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end block-->
+        <section class="block big-padding">
+            <div class="container">
+                <div class="vertical-aligned-elements">
+                    <div class="element width-50">
+                        <h3>Subscribe untuk mendapatkan notifikasi cerita-cerita terbaru dari kami</h3>
+                    </div>
+                    <!--end element-->
+                    <div class="element width-50">
+                        <form class="form form-email inputs-underline" id="form-subscribe">
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="email" placeholder="Email anda" required="">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="submit"><i class="arrow_right"></i></button>
+                                </span>
+                            </div><!-- /input-group -->
+                        </form>
+                        <!--end form-->
+                    </div>
+                    <!--end element-->
+                </div>
+                <!--end vertical-aligned-elements-->
+            </div>
+            <!--end container-->
+            <div class="background-wrapper">
+                <div class="background-color background-color-black opacity-5"></div>
+            </div>
+            <!--end background-wrapper-->
+        </section>
+        <!--end block-->
+        <section class="block background-is-dark">
+            <div class="container">
+                <div class="section-title vertical-aligned-elements">
+                    <div class="element">
+                        <h2>Lokasi Pariwisata</h2>
+                    </div>
+                    <div class="element text-align-right">
+                        <div id="gallery-nav"></div>
+                    </div>
+                </div>
+                <!--end section-title-->
+            </div>
+            <div class="gallery featured">
+                <div class="owl-carousel" data-owl-items="6" data-owl-loop="1" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="1" data-owl-nav-container="#gallery-nav">
+                    <div class="item featured" data-id="1">
+                        <a href="detail.html">
+                            <div class="description">
+                                <div class="label label-default">Tatutung</div>
+                                <h3>Air Soda</h3>
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/items/1.jpg" alt="">
+                            </div>
+                            <!--end image-->
+                        </a>
+                        <div class="additional-info">
+                            <div class="rating-passive" data-rating="4">
+                                <span class="stars"></span>
+                                <span class="reviews">6 Komentar</span>
+                            </div>
+                            <div class="controls-more">
+                                <ul>
+                                    <li><a href="#">Add to favorites</a></li>
+                                    <li><a href="#">Add to watchlist</a></li>
+                                    <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                </ul>
+                            </div>
+                            <!--end controls-more-->
+                        </div>
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+                    <div class="item featured" data-id="23">
+                        <a href="detail.html">
+                            <div class="description">
+                                <div class="label label-default">Parapat</div>
+                                <h3>Batu Gantung</h3>
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/items/11.jpg" alt="">
+                            </div>
+                            <!--end image-->
+                        </a>
+                        <div class="additional-info">
+                            <div class="rating-passive" data-rating="4">
+                                <span class="stars"></span>
+                                <span class="reviews">6 Komentar</span>
+                            </div>
+                            <div class="controls-more">
+                                <ul>
+                                    <li><a href="#">Add to favorites</a></li>
+                                    <li><a href="#">Add to watchlist</a></li>
+                                    <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                </ul>
+                            </div>
+                            <!--end controls-more-->
+                        </div>
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+                    <div class="item featured" data-id="3">
+                        <a href="detail.html">
+                            <div class="description">
+                                <div class="label label-default">Balige</div>
+                                <h3>Lumban Silintong</h3>
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/items/4.jpg" alt="">
+                            </div>
+                            <!--end image-->
+                        </a>
+                        <div class="additional-info">
+                            <div class="rating-passive" data-rating="4">
+                                <span class="stars"></span>
+                                <span class="reviews">6 Komentar</span>
+                            </div>
+                            <div class="controls-more">
+                                <ul>
+                                    <li><a href="#">Add to favorites</a></li>
+                                    <li><a href="#">Add to watchlist</a></li>
+                                    <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                </ul>
+                            </div>
+                            <!--end controls-more-->
+                        </div>
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+                    <div class="item featured" data-id="4">
+                        <a href="detail.html">
+                            <div class="description">
+                                <div class="label label-default">Tarutung</div>
+                                <h3>Salib Kasih</h3>
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/items/5.jpg" alt="">
+                            </div>
+                            <!--end image-->
+                        </a>
+                        <div class="additional-info">
+                            <div class="rating-passive" data-rating="4">
+                                <span class="stars"></span>
+                                <span class="reviews">14 Komentar</span>
+                            </div>
+                            <div class="controls-more">
+                                <ul>
+                                    <li><a href="#">Add to favorites</a></li>
+                                    <li><a href="#">Add to watchlist</a></li>
+                                    <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                </ul>
+                            </div>
+                            <!--end controls-more-->
+                        </div>
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+                    <div class="item featured" data-id="6">
+                        <a href="detail.html">
+                            <div class="description">
+                                <div class="label label-default">Samosir</div>
+                                <h3>Tomok</h3>
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/items/6.jpg" alt="">
+                            </div>
+                            <!--end image-->
+                        </a>
+                        <div class="additional-info">
+                            <div class="rating-passive" data-rating="4">
+                                <span class="stars"></span>
+                                <span class="reviews">8 Komentar</span>
+                            </div>
+                            <div class="controls-more">
+                                <ul>
+                                    <li><a href="#">Add to favorites</a></li>
+                                    <li><a href="#">Add to watchlist</a></li>
+                                    <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                </ul>
+                            </div>
+                            <!--end controls-more-->
+                        </div>
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+                    <div class="item featured" data-id="8">
+                        <a href="detail.html">
+                            <div class="description">
+                                <div class="label label-default">Sitoluama</div>
+                                <h3>Mak Roby</h3>
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/items/10.jpg" alt="">
+                            </div>
+                            <!--end image-->
+                        </a>
+                        <div class="additional-info">
+                            <div class="rating-passive" data-rating="4">
+                                <span class="stars"></span>
+                                <span class="reviews">600 Komentar</span>
+                            </div>
+                            <div class="controls-more">
+                                <ul>
+                                    <li><a href="#">Add to favorites</a></li>
+                                    <li><a href="#">Add to watchlist</a></li>
+                                    <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                </ul>
+                            </div>
+                            <!--end controls-more-->
+                        </div>
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+                    <div class="item featured" data-id="5">
+                        <a href="detail.html">
+                            <div class="description">
+                                <div class="label label-default">Parapat</div>
+                                <h3>Pagoda</h3>
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/items/28.jpg" alt="">
+                            </div>
+                            <!--end image-->
+                        </a>
+                        <div class="additional-info">
+                            <div class="rating-passive" data-rating="3">
+                                <span class="stars"></span>
+                                <span class="reviews">12 Komentar</span>
+                            </div>
+                            <div class="controls-more">
+                                <ul>
+                                    <li><a href="#">Add to favorites</a></li>
+                                    <li><a href="#">Add to watchlist</a></li>
+                                    <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                </ul>
+                            </div>
+                            <!--end controls-more-->
+                        </div>
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+                    <div class="item featured" data-id="7">
+                        <a href="detail.html">
+                            <div class="description">
+                                <div class="label label-default">Tarutung</div>
+                                <h3>Air Panas</h3>
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/items/12.jpg" alt="">
+                            </div>
+                            <!--end image-->
+                        </a>
+                        <div class="additional-info">
+                            <div class="rating-passive" data-rating="5">
+                                <span class="stars"></span>
+                                <span class="reviews">17 Komentar</span>
+                            </div>
+                            <div class="controls-more">
+                                <ul>
+                                    <li><a href="#">Add to favorites</a></li>
+                                    <li><a href="#">Add to watchlist</a></li>
+                                    <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                </ul>
+                            </div>
+                            <!--end controls-more-->
+                        </div>
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+                    <div class="item featured" data-id="1">
+                        <a href="detail.html">
+                            <div class="description">
+                                <div class="label label-default">Balige</div>
+                                <h3>Toba Dream</h3>
+                            </div>
+                            <!--end description-->
+                            <div class="image bg-transfer">
+                                <img src="assets/img/items/16.jpg" alt="">
+                            </div>
+                            <!--end image-->
+                        </a>
+                        <div class="additional-info">
+                            <div class="rating-passive" data-rating="4">
+                                <span class="stars"></span>
+                                <span class="reviews">6 Komentar</span>
+                            </div>
+                            <div class="controls-more">
+                                <ul>
+                                    <li><a href="#">Add to favorites</a></li>
+                                    <li><a href="#">Add to watchlist</a></li>
+                                    <li><a href="#" class="quick-detail">Quick detail</a></li>
+                                </ul>
+                            </div>
+                            <!--end controls-more-->
+                        </div>
+                        <!--end additional-info-->
+                    </div>
+                    <!--end item-->
+                </div>
+            </div>
+            <!--end gallery-->
+            <div class="background-wrapper">
+                <div class="background-color background-color-default"></div>
+            </div>
+            <!--end background-wrapper-->
+        </section>
+        <!--end block-->
+
+        <section class="block">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Event Disekitar Anda</h2>
+                </div>
+                <!--end section-title-->
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="text-element event">
+                            <div class="date-icon">
+                                <figure class="day">22</figure>
+                                <figure class="month">Jun</figure>
+                            </div>
+                            <h4><a href="detail.html">Pesta Danau Toba</a></h4>
+                            <figure class="date"><i class="icon_clock_alt"></i>08:00</figure>
+                            <p>Ut nec vulputate enim. Nulla faucibus convallis dui. Donec arcu enim, scelerisque.</p>
+                            <a href="detail.html" class="link arrow">Baca Selengkapnya</a>
+                        </div>
+                        <!--end text-element-->
+                    </div>
+                    <!--end col-md-4-->
+                    <div class="col-md-4 col-sm-4">
+                        <div class="text-element event">
+                            <div class="date-icon">
+                                <figure class="day">04</figure>
+                                <figure class="month">Jul</figure>
+                            </div>
+                            <h4><a href="detail.html">Konser Queen</a></h4>
+                            <figure class="date"><i class="icon_clock_alt"></i>12:00</figure>
+                            <p>Nullam vitae ex ac neque viverra ullamcorper eu at nunc. Morbi imperdiet.</p>
+                            <a href="detail.html" class="link arrow">Baca Selengkapnya</a>
+                        </div>
+                        <!--end text-element-->
+                    </div>
+                    <!--end col-md-4-->
+                    <div class="col-md-4 col-sm-4">
+                        <div class="text-element event">
+                            <div class="date-icon">
+                                <figure class="day">12</figure>
+                                <figure class="month">Aug</figure>
+                            </div>
+                            <h4><a href="detail.html">Kunjungan Jokowi</a></h4>
+                            <figure class="date"><i class="icon_clock_alt"></i>12:00</figure>
+                            <p>Aenean sed purus ut massa scelerisque bibendum eget vel massa.</p>
+                            <a href="detail.html" class="link arrow">Baca Selengkapnya</a>
+                        </div>
+                        <!--end text-element-->
+                    </div>
+                    <!--end col-md-4-->
+                </div>
+                <!--end row-->
+                <div class="background-wrapper">
+                    <div class="background-color background-color-black opacity-5"></div>
+                </div>
+                <!--end background-wrapper-->
+            </div>
+            <!--end container-->
+        </section>
+    </div>
+    <!--end page-content-->
+
+    <footer id="page-footer">
+        <div class="footer-wrapper">
+            <div class="block">
+                <div class="container">
+                    <div class="vertical-aligned-elements">
+                        <div class="element width-50">
+                            <p data-toggle="modal" data-target="#myModal">Ikuti social media kami dan baca <a href="#">Petunjuk Penggunaan</a> dan <a href="#">Kebijakan Privasi Website Ini</a>.</p>
+                        </div>
+                        <div class="element width-50 text-align-right">
+                            <a href="#" class="circle-icon"><i class="social_twitter"></i></a>
+                            <a href="#" class="circle-icon"><i class="social_facebook"></i></a>
+                            <a href="#" class="circle-icon"><i class="social_youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="background-wrapper">
+                        <div class="bg-transfer opacity-50">
+                            <img src="assets/img/footer-bg.png" alt="">
+                        </div>
+                    </div>
+                    <!--end background-wrapper-->
+                </div>
+            </div>
+            <div class="footer-navigation">
+                <div class="container">
+                    <div class="vertical-aligned-elements">
+                        <div class="element width-50">(C) 2019 , Cerita Rakyat</div>
+                        <div class="element width-50 text-align-right">
+                            <a href="index.html">Home</a>
+                            <a href="contact.html">About</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end page-footer-->
+</div>
+<!--end page-wrapper-->
+<a href="#" class="to-top scroll" data-show-after-scroll="600"><i class="arrow_up"></i></a>
+
+<script type="text/javascript" src="assets/js/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58&libraries=places"></script>
+<!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>-->
+<script type="text/javascript" src="assets/js/richmarker-compiled.js"></script>
+<script type="text/javascript" src="assets/js/markerclusterer_packed.js"></script>
+<script type="text/javascript" src="assets/js/infobox.js"></script>
+<script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="assets/js/icheck.min.js"></script>
+<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.trackpad-scroll-emulator.min.js"></script>
+
+<script type="text/javascript" src="assets/js/custom.js"></script>
+<script type="text/javascript" src="assets/js/maps.js"></script>
+
+<script>
+    var optimizedDatabaseLoading = 0;
+    var _latitude = 40.7344458;
+    var _longitude = -73.86704922;
+    var element = "map-homepage";
+    var markerTarget = "sidebar"; // use "sidebar", "infobox" or "modal" - defines the action after click on marker
+    var sidebarResultTarget = "sidebar"; // use "sidebar", "modal" or "new_page" - defines the action after click on marker
+    var showMarkerLabels = false; // next to every marker will be a bubble with title
+    var mapDefaultZoom = 14; // default zoom
+    heroMap(_latitude,_longitude, element, markerTarget, sidebarResultTarget, showMarkerLabels, mapDefaultZoom);
+</script>
+
+</body>
+
