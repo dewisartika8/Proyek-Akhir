@@ -684,20 +684,20 @@ var mapData = [{
     "marker_color": "#2196f3"
 }, {
     "id":18,
-    "latitude": 1.728441,
-    "longitude": 98.779787,
+    "latitude": 2.329241,
+    "longitude": 98.881394,
     "featured": 0,
-    "title": "Pulau Sarudik",
-    "location": "Sibolga",
-    "city": 3,
+    "title": "Sipinsur",
+    "location": "Dolok Sanggul",
+    "city": 6,
     "contact": "989-410-0777",
     "category": "Pariwisata",
     "rating": "3",
     "reviews_number": "12",
-    "marker_image": "assets\/img\/items\/pulausarudik1.jpg",
-    "gallery": ["assets\/img\/items\/pulausarudik1.jpg", "assets\/img\/items\/pulausarudik2.jpg", "assets\/img\/items\/pulausarudik3.jpg"],
+    "marker_image": "assets\/img\/items\/sipinsur1.jpg",
+    "gallery": ["assets\/img\/items\/sipinsur1.jpg", "assets\/img\/items\/sipinsur2.jpg", "assets\/img\/items\/sipinsur3.jpg"],
     "additional_info": "",
-    "url": "wisata_detail_pulauputrisibolga.html",
+    "url": "wisata_detail_sipinsurdosa.html",
     "description": "Aliquam vel turpis sagittis, semper tellus eget, aliquam turpis. Cras aliquam, arcu",
     "today_menu": [{
         "meal_type": "Starter",
@@ -724,93 +724,31 @@ var mapData = [{
     }],
     "marker_color": "#2196f3"
 }, {
-    "id": 19,
-    "latitude": 40.76546147,
-    "longitude": -73.88348579,
+    "id":19,
+    "latitude": 2.305782,
+    "longitude": 98.812631,
     "featured": 0,
-    "title": "Coffee Break",
-    "location": "35 High Street",
-    "city": 1,
-    "contact": "<i class='fa fa-phone'><\/i>",
-    "category": "Coffee",
+    "title": "Istana Makam Raja Sisingamangaraja",
+    "location": "Dolok Sanggul",
+    "city": 6,
+    "contact": "989-410-0777",
+    "category": "Pariwisata",
     "rating": "3",
-    "reviews_number": "6",
-    "marker_image": "assets\/img\/items\/23.jpg",
-    "gallery": ["assets\/img\/items\/23.jpg", "assets\/img\/items\/9.jpg", "assets\/img\/items\/12.jpg"],
+    "reviews_number": "12",
+    "marker_image": "assets\/img\/items\/sisingamangaraja1.jpg",
+    "gallery": ["assets\/img\/items\/sisingamangaraja1.jpg", "assets\/img\/items\/sisingamangaraja2.jpg", "assets\/img\/items\/sisingamangaraja3.jpg"],
     "additional_info": "",
-    "url": "",
-    "description": "Nulla auctor, metus vel congue facilisis, ante orci tempus nibh, a dictum libero purus nec enim. Nullam at eleifend lorem, consectetur posuere sem. Nam molestie tincidunt ligula vel vehicula. Vivamus eleifend quam non volutpat aliquam.",
-    "opening_hours": ["08:00am - 11:00pm", "08:00am - 11:00pm", "12:00am - 11:00pm", "08:00am - 11:00pm", "03:00pm - 02:00am", "03:00pm - 02:00am", "Closed"],
-    "tags": ["Wi-Fi", "Parking", "TV", "Vegetarian"],
-    "reviews": [{
-        "author_name": "Jane Doe",
-        "author_image": "assets\/img\/person-01.jpg",
-        "date": "09.05.2016",
-        "rating": 4,
-        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
+    "url": "wisata_detail_istanarajasisingamangarajadosa.html",
+    "description": "Aliquam vel turpis sagittis, semper tellus eget, aliquam turpis. Cras aliquam, arcu",
+    "today_menu": [{
+        "meal_type": "Starter",
+        "meal": "Smoked Salmon, Classic Condiments, Brioche"
     }, {
-        "author_name": "Norma Brown",
-        "author_image": "assets\/img\/person-02.jpg",
-        "date": "09.05.2016",
-        "rating": 4,
-        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
-    }]
-}, {
-    "id": 20,
-    "latitude": 40.75857035,
-    "longitude": -73.86185646,
-    "featured": 1,
-    "title": "Weekend in Venice",
-    "location": "Venice Hotel****",
-    "city": 1,
-    "contact": "<i class='fa fa-phone'><\/i>",
-    "category": "Trip",
-    "rating": "5",
-    "reviews_number": "23",
-    "marker_image": "assets\/img\/items\/27.jpg",
-    "gallery": ["assets\/img\/items\/27.jpg", "assets\/img\/items\/25.jpg", "assets\/img\/items\/10.jpg"],
-    "additional_info": "$99\/Weekend",
-    "url": "",
-    "description": "Nulla et diam magna. Pellentesque accumsan turpis a mi pulvinar aliquam. Pellentesque tempor blandit sapien, efficitur hendrerit nisi tristique a. Vivamus vitae convallis eros. Sed a mi faucibus, cursus erat vel, molestie sapien",
-    "tags": ["Wi-Fi", "Parking", "TV", "Vegetarian"],
-    "schedule": [{
-        "date": "24.03.2017",
-        "time": "16:00",
-        "location_title": "Town Square",
-        "location_address": "458 Brigth Street London"
+        "meal_type": "Soup",
+        "meal": "Roasted Golden Beets, Goat Cheese, Hazelnut Granola"
     }, {
-        "date": "03.04.2017",
-        "time": "18:00",
-        "location_title": "Bristol Gallery",
-        "location_address": "87 Yellow Lane, Manhattan"
-    }]
-}, {
-    "id": 21,
-    "latitude": 40.75408424,
-    "longitude": -73.87666225,
-    "featured": 0,
-    "title": "Tree Therapy",
-    "location": "Eastpark Forest",
-    "city": 1,
-    "contact": "<i class='fa fa-phone'><\/i>",
-    "category": "Therapy",
-    "rating": "5",
-    "reviews_number": "6",
-    "marker_image": "assets\/img\/items\/26.jpg",
-    "gallery": ["assets\/img\/items\/26.jpg", "assets\/img\/items\/4.jpg", "assets\/img\/items\/12.jpg"],
-    "additional_info": "",
-    "url": "",
-    "description": "Mauris porttitor justo ac pulvinar bibendum. Ut ex orci, hendrerit ut lectus ac, dapibus cursus neque. Pellentesque eleifend quam nulla, ut blandit purus rutrum eget. Maecenas orci dolor, efficitur porta pharetra eu, cursus at ex. Donec mattis ipsum id dui rutrum malesuada",
-    "schedule": [{
-        "date": "24.03.2017",
-        "time": "16:00",
-        "location_title": "Town Square",
-        "location_address": "458 Brigth Street London"
-    }, {
-        "date": "03.04.2017",
-        "time": "18:00",
-        "location_title": "Bristol Gallery",
-        "location_address": "87 Yellow Lane, Manhattan"
+        "meal_type": "Main course",
+        "meal": "Napoleon of Rabbit Loin, Braised Leek, Fava Bean Puree"
     }],
     "reviews": [{
         "author_name": "Jane Doe",
@@ -824,37 +762,131 @@ var mapData = [{
         "date": "09.05.2016",
         "rating": 4,
         "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
-    }]
-}, {
-    "id": 22,
-    "latitude": 40.71929033,
-    "longitude": -73.8737011,
-    "featured": 0,
-    "title": "Gourman Festival",
-    "location": "Station Square",
-    "city": 1,
-    "contact": "<i class='fa fa-phone'><\/i>",
-    "category": "Relax",
-    "rating": "",
-    "reviews_number": "0",
-    "marker_image": "assets\/img\/items\/21.jpg",
-    "gallery": ["assets\/img\/items\/21.jpg", "assets\/img\/items\/2.jpg", "assets\/img\/items\/12.jpg"],
-    "additional_info": "",
-    "url": "",
-    "description": "Nulla auctor, metus vel congue facilisis, ante orci tempus nibh, a dictum libero purus nec enim. Nullam at eleifend lorem, consectetur posuere sem. Nam molestie tincidunt ligula vel vehicula. Vivamus eleifend quam non volutpat aliquam",
-    "schedule": [{
-        "date": "24.03.2017",
-        "time": "16:00",
-        "location_title": "Town Square",
-        "location_address": "458 Brigth Street London"
-    }, {
-        "date": "03.04.2017",
-        "time": "18:00",
-        "location_title": "Bristol Gallery",
-        "location_address": "87 Yellow Lane, Manhattan"
     }],
-    "tags": ["Wi-Fi", "Parking", "TV", "Vegetarian"],
-    "marker_color": "#1d7e5f"
+    "marker_color": "#2196f3"
+}, {
+    "id":20,
+    "latitude": 2.324109,
+    "longitude": 98.846244,
+    "featured": 0,
+    "title": "Aek Sipangolu",
+    "location": "Dolok Sanggul",
+    "city": 6,
+    "contact": "989-410-0777",
+    "category": "Pariwisata",
+    "rating": "3",
+    "reviews_number": "12",
+    "marker_image": "assets\/img\/items\/sipangolu1.jpg",
+    "gallery": ["assets\/img\/items\/sipangolu1.jpg", "assets\/img\/items\/sipangolu2.jpg", "assets\/img\/items\/sipangolu3.jpg"],
+    "additional_info": "",
+    "url": "wisata_detail_aeksipangoludosa.html",
+    "description": "Aliquam vel turpis sagittis, semper tellus eget, aliquam turpis. Cras aliquam, arcu",
+    "today_menu": [{
+        "meal_type": "Starter",
+        "meal": "Smoked Salmon, Classic Condiments, Brioche"
+    }, {
+        "meal_type": "Soup",
+        "meal": "Roasted Golden Beets, Goat Cheese, Hazelnut Granola"
+    }, {
+        "meal_type": "Main course",
+        "meal": "Napoleon of Rabbit Loin, Braised Leek, Fava Bean Puree"
+    }],
+    "reviews": [{
+        "author_name": "Jane Doe",
+        "author_image": "assets\/img\/person-01.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
+    }, {
+        "author_name": "Norma Brown",
+        "author_image": "assets\/img\/person-02.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
+    }],
+    "marker_color": "#2196f3"
+}, {
+    "id":21,
+    "latitude": 2.218716,
+    "longitude": 98.723103,
+    "featured": 0,
+    "title": "Tao Sipinggan dan Silosung",
+    "location": "Dolok Sanggul",
+    "city": 6,
+    "contact": "989-410-0777",
+    "category": "cerita",
+    "rating": "3",
+    "reviews_number": "12",
+    "marker_image": "assets\/img\/items\/silosung1.jpg",
+    "gallery": ["assets\/img\/items\/silosung1.jpg", "assets\/img\/items\/silosung2.jpg", "assets\/img\/items\/silosung3.jpg"],
+    "additional_info": "",
+    "url": "cerita_detail_CeritaRakyatDolokSanggul.html",
+    "description": "Aliquam vel turpis sagittis, semper tellus eget, aliquam turpis. Cras aliquam, arcu",
+    "today_menu": [{
+        "meal_type": "Starter",
+        "meal": "Smoked Salmon, Classic Condiments, Brioche"
+    }, {
+        "meal_type": "Soup",
+        "meal": "Roasted Golden Beets, Goat Cheese, Hazelnut Granola"
+    }, {
+        "meal_type": "Main course",
+        "meal": "Napoleon of Rabbit Loin, Braised Leek, Fava Bean Puree"
+    }],
+    "reviews": [{
+        "author_name": "Jane Doe",
+        "author_image": "assets\/img\/person-01.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
+    }, {
+        "author_name": "Norma Brown",
+        "author_image": "assets\/img\/person-02.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
+    }],
+    "marker_color": "#FFEB3B"
+}, {
+    "id":22,
+    "latitude": 3.280422,
+    "longitude": 98.556717,
+    "featured": 0,
+    "title": "Hillpark Sibolangit",
+    "location": "Medan",
+    "city": 4,
+    "contact": "989-410-0777",
+    "category": "Cerita",
+    "rating": "3",
+    "reviews_number": "12",
+    "marker_image": "assets\/img\/items\/hillpark1.jpg",
+    "gallery": ["assets\/img\/items\/hillpark1.jpg", "assets\/img\/items\/hillpark2.jpg", "assets\/img\/items\/hillpark3.jpg"],
+    "additional_info": "",
+    "url": "wisata_detail_hillparksibolangitmedan.html",
+    "description": "Aliquam vel turpis sagittis, semper tellus eget, aliquam turpis. Cras aliquam, arcu",
+    "today_menu": [{
+        "meal_type": "Starter",
+        "meal": "Smoked Salmon, Classic Condiments, Brioche"
+    }, {
+        "meal_type": "Soup",
+        "meal": "Roasted Golden Beets, Goat Cheese, Hazelnut Granola"
+    }, {
+        "meal_type": "Main course",
+        "meal": "Napoleon of Rabbit Loin, Braised Leek, Fava Bean Puree"
+    }],
+    "reviews": [{
+        "author_name": "Jane Doe",
+        "author_image": "assets\/img\/person-01.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
+    }, {
+        "author_name": "Norma Brown",
+        "author_image": "assets\/img\/person-02.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
+    }],
+    "marker_color": "#2196f3"
 }, {
     "id": 23,
     "address": "12055 Queens Boulevard, Kew Gardens, NY 11415, USA",
