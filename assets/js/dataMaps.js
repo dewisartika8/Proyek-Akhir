@@ -855,7 +855,7 @@ var mapData = [{
     "location": "Medan",
     "city": 4,
     "contact": "989-410-0777",
-    "category": "Cerita",
+    "category": "Pariwisata",
     "rating": "3",
     "reviews_number": "12",
     "marker_image": "assets\/img\/items\/hillpark1.jpg",
@@ -888,244 +888,290 @@ var mapData = [{
     }],
     "marker_color": "#2196f3"
 }, {
-    "id": 23,
-    "address": "12055 Queens Boulevard, Kew Gardens, NY 11415, USA",
-    "featured": 1,
-    "title": "Nascar Racing",
-    "location": "London Airport",
-    "city": 1,
-    "contact": "<i class='fa fa-phone'><\/i>541-435-6211",
-    "category": "Relax",
-    "rating": "5",
-    "reviews_number": "11",
-    "marker_image": "assets\/img\/items\/11.jpg",
-    "gallery": ["assets\/img\/items\/11.jpg", "assets\/img\/items\/5.jpg", "assets\/img\/items\/7.jpg"],
-    "additional_info": "",
-    "url": "detail.html",
-    "description": "Sed ac dolor auctor, elementum lacus vitae, efficitur magna. Quisque sed semper tellus",
-    "reviews": [{
-        "author_name": "Jane Doe",
-        "author_image": "assets\/img\/person-01.jpg",
-        "date": "09.05.2016",
-        "rating": 4,
-        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
-    }, {
-        "author_name": "Norma Brown",
-        "author_image": "assets\/img\/person-02.jpg",
-        "date": "09.05.2016",
-        "rating": 4,
-        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
-    }],
-    "schedule": [{
-        "date": "24.03.2017",
-        "time": "16:00",
-        "location_title": "Century Cup",
-        "location_address": "Nascar Ring"
-    }, {
-        "date": "03.04.2017",
-        "time": "18:00",
-        "location_title": "24\/7 Rally",
-        "location_address": "Nascar Ring"
-    }]
-}, {
-    "id": 24,
-    "latitude": 40.7486875,
-    "longitude": -73.91451359,
-    "featured": 1,
-    "title": "Golf Lessons",
-    "location": "49 Lance Golf Club",
-    "city": 1,
-    "contact": "<i class='fa fa-phone'><\/i>+1 317-598-2912",
-    "category": "Sport",
-    "rating": "5",
-    "reviews_number": "17",
-    "marker_image": "assets\/img\/items\/14.jpg",
-    "gallery": ["assets\/img\/items\/14.jpg", "assets\/img\/items\/6.jpg", "assets\/img\/items\/9.jpg"],
-    "additional_info": "Starts form $49",
-    "url": "",
-    "description": "Donec sed odio tempus, accumsan lectus eget, lobortis ligula. Sed sollicitudin urna et justo cursus imperdiet. Nullam semper est urna. Mauris nec volutpat lectus, quis commodo libero. In sed sagittis mauris, vitae feugiat magna.",
-    "reviews": [{
-        "author_name": "Jane Doe",
-        "author_image": "assets\/img\/person-01.jpg",
-        "date": "09.05.2016",
-        "rating": 4,
-        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
-    }, {
-        "author_name": "Norma Brown",
-        "author_image": "assets\/img\/person-02.jpg",
-        "date": "09.05.2016",
-        "rating": 4,
-        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
-    }],
-    "schedule": [{
-        "date": "24.03.2017",
-        "time": "16:00",
-        "location_title": "Town Square",
-        "location_address": "458 Brigth Street London"
-    }, {
-        "date": "03.04.2017",
-        "time": "18:00",
-        "location_title": "Bristol Gallery",
-        "location_address": "87 Yellow Lane, Manhattan"
-    }],
-    "video": "<iframe src='https:\/\/player.vimeo.com\/video\/16688587?title=0&byline=0&portrait=0' width='640' height='272' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen><\/iframe>"
-}, {
-    "id": 25,
-    "latitude": 51.508111,
-    "longitude": -0.132533,
-    "featured": 1,
-    "title": "Tennis for Beginners",
-    "location": "Tennis Center",
-    "city": 3,
-    "contact": "<i class='fa fa-phone'><\/i>+1 317-598-2912",
-    "category": "Sport",
-    "rating": "4",
-    "reviews_number": "17",
-    "marker_image": "assets\/img\/items\/8.jpg",
-    "gallery": ["assets\/img\/items\/8.jpg", "assets\/img\/items\/6.jpg", "assets\/img\/items\/9.jpg"],
-    "additional_info": "Starts form $49",
-    "url": "",
-    "description": "Donec sed odio tempus, accumsan lectus eget, lobortis ligula. Sed sollicitudin urna et justo cursus imperdiet. Nullam semper est urna. Mauris nec volutpat lectus, quis commodo libero. In sed sagittis mauris, vitae feugiat magna.",
-    "reviews": [{
-        "author_name": "Jane Doe",
-        "author_image": "assets\/img\/person-01.jpg",
-        "date": "09.05.2016",
-        "rating": 4,
-        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
-    }, {
-        "author_name": "Norma Brown",
-        "author_image": "assets\/img\/person-02.jpg",
-        "date": "09.05.2016",
-        "rating": 4,
-        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
-    }],
-    "video": ""
-}, {
-    "id": 26,
-    "latitude": 51.505867,
-    "longitude": -0.136954,
-    "featured": 1,
-    "title": "Red Ear Restaurant",
-    "location": "48 Josh Lane",
-    "city": 3,
-    "contact": "<i class='fa fa-phone'><\/i>+1 457-48-6846",
-    "category": "Restaurant",
-    "rating": "5",
-    "reviews_number": "5",
-    "marker_image": "assets\/img\/items\/3.jpg",
-    "gallery": ["assets\/img\/items\/3.jpg", "assets\/img\/items\/6.jpg", "assets\/img\/items\/9.jpg"],
-    "additional_info": "",
-    "url": "",
-    "description": "Donec sed odio tempus, accumsan lectus eget, lobortis ligula. Sed sollicitudin urna et justo cursus imperdiet. Nullam semper est urna. Mauris nec volutpat lectus, quis commodo libero. In sed sagittis mauris, vitae feugiat magna.",
-    "reviews": [{
-        "author_name": "Jane Doe",
-        "author_image": "assets\/img\/person-01.jpg",
-        "date": "09.05.2016",
-        "rating": 4,
-        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
-    }, {
-        "author_name": "Norma Brown",
-        "author_image": "assets\/img\/person-02.jpg",
-        "date": "09.05.2016",
-        "rating": 4,
-        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
-    }],
-    "video": ""
-}, {
-    "id": 27,
-    "latitude": 48.859092,
-    "longitude": 2.35514,
-    "featured": 1,
-    "title": "Paris st. Restaurant",
-    "location": "Rue La Fayette",
-    "city": 4,
-    "contact": "<i class='fa fa-phone'><\/i>+6 457-48-6846",
-    "category": "Restaurant",
-    "rating": "5",
-    "reviews_number": "5",
-    "marker_image": "assets\/img\/items\/6.jpg",
-    "gallery": ["assets\/img\/items\/6.jpg", "assets\/img\/items\/6.jpg", "assets\/img\/items\/9.jpg"],
-    "additional_info": "",
-    "url": "",
-    "description": "Donec sed odio tempus, accumsan lectus eget, lobortis ligula. Sed sollicitudin urna et justo cursus imperdiet. Nullam semper est urna. Mauris nec volutpat lectus, quis commodo libero. In sed sagittis mauris, vitae feugiat magna.",
-    "reviews": [{
-        "author_name": "Jane Doe",
-        "author_image": "assets\/img\/person-01.jpg",
-        "date": "09.05.2016",
-        "rating": 4,
-        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
-    }, {
-        "author_name": "Norma Brown",
-        "author_image": "assets\/img\/person-02.jpg",
-        "date": "09.05.2016",
-        "rating": 4,
-        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
-    }],
-    "video": ""
-}, {
-    "id": 28,
-    "latitude": 48.874022,
-    "longitude": 2.36088,
-    "featured": 1,
-    "title": "Manoir Wellness & Spa",
-    "location": "Quai de Valmy",
-    "city": 4,
-    "contact": "<i class='fa fa-phone'><\/i>+6 3548-189-4455",
-    "category": "Wellness",
-    "rating": "5",
-    "reviews_number": "6",
-    "marker_image": "assets\/img\/items\/2.jpg",
-    "gallery": ["assets\/img\/items\/2.jpg", "assets\/img\/items\/6.jpg", "assets\/img\/items\/9.jpg"],
-    "additional_info": "",
-    "url": "",
-    "description": "Donec sed odio tempus, accumsan lectus eget, lobortis ligula. Sed sollicitudin urna et justo cursus imperdiet. Nullam semper est urna. Mauris nec volutpat lectus, quis commodo libero. In sed sagittis mauris, vitae feugiat magna.",
-    "reviews": [{
-        "author_name": "Jane Doe",
-        "author_image": "assets\/img\/person-01.jpg",
-        "date": "09.05.2016",
-        "rating": 4,
-        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
-    }, {
-        "author_name": "Norma Brown",
-        "author_image": "assets\/img\/person-02.jpg",
-        "date": "09.05.2016",
-        "rating": 4,
-        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
-    }],
-    "video": ""
-}, {
-    "id": 29,
-    "latitude": 47.4497732,
-    "longitude": 12.2513095,
+    "id":23,
+    "latitude": 3.508053,
+    "longitude": 98.584790,
     "featured": 0,
-    "title": "Spend the night in an igloo!",
-    "location": "Alpeniglu",
-    "city": 2,
-    "contact": "<i class='fa fa-phone'><\/i>",
-    "category": "Hotel",
-    "rating": "",
-    "reviews_number": "",
-    "marker_image": "assets\/img\/items\/6.jpg",
-    "gallery": ["https:\/\/www.experio.at\/alpeniglu.JPG", "https:\/\/www.experio.at\/alpeniglu.JPG", "https:\/\/www.experio.at\/alpeniglu.JPG"],
-    "tags": ["Partners", "Scenic", "Winter", "Tyrol"],
-    "ribbon": "Sale",
+    "title": "Kampung Ladang",
+    "location": "Medan",
+    "city": 4,
+    "contact": "989-410-0777",
+    "category": "Pariwisata",
+    "rating": "3",
+    "reviews_number": "12",
+    "marker_image": "assets\/img\/items\/kampungladang1.jpg",
+    "gallery": ["assets\/img\/items\/kampungladang1.jpg", "assets\/img\/items\/kampungladang2.jpg", "assets\/img\/items\/kampungladang3.jpg"],
     "additional_info": "",
-    "url": "detail.html",
-    "description": "The Alpeniglu villiage in Tirol: an igloo village with hotel, ice bar, art and experiences.  Located in the heart of ski resort SkiWelt Wilder Kaiser - Brixental.",
-    "description_list": [{
-        "title": "Bathrooms",
-        "value": 3
+    "url": "wisata_detail_kampungladangmedan.html",
+    "description": "Aliquam vel turpis sagittis, semper tellus eget, aliquam turpis. Cras aliquam, arcu",
+    "today_menu": [{
+        "meal_type": "Starter",
+        "meal": "Smoked Salmon, Classic Condiments, Brioche"
     }, {
-        "title": "Bedrooms",
-        "value": 4
+        "meal_type": "Soup",
+        "meal": "Roasted Golden Beets, Goat Cheese, Hazelnut Granola"
     }, {
-        "title": "Area",
-        "value": "458m<sup>2<\/sup>"
+        "meal_type": "Main course",
+        "meal": "Napoleon of Rabbit Loin, Braised Leek, Fava Bean Puree"
+    }],
+    "reviews": [{
+        "author_name": "Jane Doe",
+        "author_image": "assets\/img\/person-01.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
     }, {
-        "title": "Garages",
-        "value": 2
+        "author_name": "Norma Brown",
+        "author_image": "assets\/img\/person-02.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
+    }],
+    "marker_color": "#2196f3"
+}, {
+    "id":24,
+    "latitude": 3.583109,
+    "longitude": 98.669051,
+    "featured": 0,
+    "title": "Kampung Keling",
+    "location": "Medan",
+    "city": 4,
+    "contact": "989-410-0777",
+    "category": "Pariwisata",
+    "rating": "3",
+    "reviews_number": "12",
+    "marker_image": "assets\/img\/items\/kampungkeling1.jpg",
+    "gallery": ["assets\/img\/items\/kampungkeling1.jpg", "assets\/img\/items\/kampungkeling2.jpg", "assets\/img\/items\/kampungkeling3.jpg"],
+    "additional_info": "",
+    "url": "wisata_detail_kampungkelingmedan.html",
+    "description": "Aliquam vel turpis sagittis, semper tellus eget, aliquam turpis. Cras aliquam, arcu",
+    "today_menu": [{
+        "meal_type": "Starter",
+        "meal": "Smoked Salmon, Classic Condiments, Brioche"
     }, {
-        "title": "Status",
-        "value": "Sale"
-    }]
+        "meal_type": "Soup",
+        "meal": "Roasted Golden Beets, Goat Cheese, Hazelnut Granola"
+    }, {
+        "meal_type": "Main course",
+        "meal": "Napoleon of Rabbit Loin, Braised Leek, Fava Bean Puree"
+    }],
+    "reviews": [{
+        "author_name": "Jane Doe",
+        "author_image": "assets\/img\/person-01.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
+    }, {
+        "author_name": "Norma Brown",
+        "author_image": "assets\/img\/person-02.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
+    }],
+    "marker_color": "#2196f3"
+}, {
+    "id":25,
+    "latitude": 3.590185,
+    "longitude": 98.678064,
+    "featured": 0,
+    "title": "Merdeka Walk",
+    "location": "Medan",
+    "city": 4,
+    "contact": "989-410-0777",
+    "category": "Pariwisata",
+    "rating": "3",
+    "reviews_number": "12",
+    "marker_image": "assets\/img\/items\/merdekawalk1.jpg",
+    "gallery": ["assets\/img\/items\/merdekawalk1.jpg", "assets\/img\/items\/merdekawalk2.jpg", "assets\/img\/items\/merdekawalk3.jpg"],
+    "additional_info": "",
+    "url": "wisata_detail_merdekawalkmedan.html",
+    "description": "Aliquam vel turpis sagittis, semper tellus eget, aliquam turpis. Cras aliquam, arcu",
+    "today_menu": [{
+        "meal_type": "Starter",
+        "meal": "Smoked Salmon, Classic Condiments, Brioche"
+    }, {
+        "meal_type": "Soup",
+        "meal": "Roasted Golden Beets, Goat Cheese, Hazelnut Granola"
+    }, {
+        "meal_type": "Main course",
+        "meal": "Napoleon of Rabbit Loin, Braised Leek, Fava Bean Puree"
+    }],
+    "reviews": [{
+        "author_name": "Jane Doe",
+        "author_image": "assets\/img\/person-01.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
+    }, {
+        "author_name": "Norma Brown",
+        "author_image": "assets\/img\/person-02.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
+    }],
+    "marker_color": "#2196f3"
+}, {
+	"id":26,
+    "latitude": 3.887858,
+    "longitude": 98.507291,
+    "featured": 0,
+    "title": "Taman Labirin Simalem Resort",
+    "location": "Medan",
+    "city": 4,
+    "contact": "989-410-0777",
+    "category": "Pariwisata",
+    "rating": "3",
+    "reviews_number": "12",
+    "marker_image": "assets\/img\/items\/tamanlabirin1.jpg",
+    "gallery": ["assets\/img\/items\/tamanlabirin1.jpg", "assets\/img\/items\/tamanlabirin2.jpg", "assets\/img\/items\/tamanlabirin3.jpg"],
+    "additional_info": "",
+    "url": "wisata_detail_tamanlabirinmedan.html",
+    "description": "Aliquam vel turpis sagittis, semper tellus eget, aliquam turpis. Cras aliquam, arcu",
+    "today_menu": [{
+        "meal_type": "Starter",
+        "meal": "Smoked Salmon, Classic Condiments, Brioche"
+    }, {
+        "meal_type": "Soup",
+        "meal": "Roasted Golden Beets, Goat Cheese, Hazelnut Granola"
+    }, {
+        "meal_type": "Main course",
+        "meal": "Napoleon of Rabbit Loin, Braised Leek, Fava Bean Puree"
+    }],
+    "reviews": [{
+        "author_name": "Jane Doe",
+        "author_image": "assets\/img\/person-01.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
+    }, {
+        "author_name": "Norma Brown",
+        "author_image": "assets\/img\/person-02.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
+    }],
+    "marker_color": "#2196f3"
+}, {
+    "id":27,
+    "latitude": 3.558957,
+    "longitude": 98.675859,
+    "featured": 0,
+    "title": "Wonders Water World",
+    "location": "Medan",
+    "city": 4,
+    "contact": "989-410-0777",
+    "category": "Pariwisata",
+    "rating": "3",
+    "reviews_number": "12",
+    "marker_image": "assets\/img\/items\/wonderswater1.jpg",
+    "gallery": ["assets\/img\/items\/wonderswater1.jpg", "assets\/img\/items\/wonderswater2.jpg", "assets\/img\/items\/wonderswater3.jpg"],
+    "additional_info": "",
+    "url": "wisata_detail_wonderswaterworldmedan.html",
+    "description": "Aliquam vel turpis sagittis, semper tellus eget, aliquam turpis. Cras aliquam, arcu",
+    "today_menu": [{
+        "meal_type": "Starter",
+        "meal": "Smoked Salmon, Classic Condiments, Brioche"
+    }, {
+        "meal_type": "Soup",
+        "meal": "Roasted Golden Beets, Goat Cheese, Hazelnut Granola"
+    }, {
+        "meal_type": "Main course",
+        "meal": "Napoleon of Rabbit Loin, Braised Leek, Fava Bean Puree"
+    }],
+    "reviews": [{
+        "author_name": "Jane Doe",
+        "author_image": "assets\/img\/person-01.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
+    }, {
+        "author_name": "Norma Brown",
+        "author_image": "assets\/img\/person-02.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
+    }],
+    "marker_color": "#2196f3"
+}, {
+    "id":28,
+    "latitude": 3.579265,
+    "longitude": 98.667732,
+    "featured": 0,
+    "title": "Rahmat Gallery",
+    "location": "Medan",
+    "city": 4,
+    "contact": "989-410-0777",
+    "category": "Pariwisata",
+    "rating": "3",
+    "reviews_number": "12",
+    "marker_image": "assets\/img\/items\/rahmatgallery1.jpg",
+    "gallery": ["assets\/img\/items\/rahmatgallery1.jpg", "assets\/img\/items\/rahmatgallery2.jpg", "assets\/img\/items\/rahmatgallery3.jpg"],
+    "additional_info": "",
+    "url": "wisata_detail_rahmatgallerymedan.html",
+    "description": "Aliquam vel turpis sagittis, semper tellus eget, aliquam turpis. Cras aliquam, arcu",
+    "today_menu": [{
+        "meal_type": "Starter",
+        "meal": "Smoked Salmon, Classic Condiments, Brioche"
+    }, {
+        "meal_type": "Soup",
+        "meal": "Roasted Golden Beets, Goat Cheese, Hazelnut Granola"
+    }, {
+        "meal_type": "Main course",
+        "meal": "Napoleon of Rabbit Loin, Braised Leek, Fava Bean Puree"
+    }],
+    "reviews": [{
+        "author_name": "Jane Doe",
+        "author_image": "assets\/img\/person-01.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
+    }, {
+        "author_name": "Norma Brown",
+        "author_image": "assets\/img\/person-02.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
+    }],
+    "marker_color": "#2196f3"
+}, {
+    "id":29,
+    "latitude": 3.203498,
+    "longitude": 98.525758,
+    "featured": 0,
+    "title": "Funland Mickey Holiday",
+    "location": "Medan",
+    "city": 4,
+    "contact": "989-410-0777",
+    "category": "Pariwisata",
+    "rating": "3",
+    "reviews_number": "12",
+    "marker_image": "assets\/img\/items\/funlandmickey1.jpg",
+    "gallery": ["assets\/img\/items\/funlandmickey1.jpg", "assets\/img\/items\/funlandmickey2.jpg", "assets\/img\/items\/funlandmickey3.jpg"],
+    "additional_info": "",
+    "url": "wisata_detail_funlandmickeyholidaymedan.html",
+    "description": "Aliquam vel turpis sagittis, semper tellus eget, aliquam turpis. Cras aliquam, arcu",
+    "today_menu": [{
+        "meal_type": "Starter",
+        "meal": "Smoked Salmon, Classic Condiments, Brioche"
+    }, {
+        "meal_type": "Soup",
+        "meal": "Roasted Golden Beets, Goat Cheese, Hazelnut Granola"
+    }, {
+        "meal_type": "Main course",
+        "meal": "Napoleon of Rabbit Loin, Braised Leek, Fava Bean Puree"
+    }],
+    "reviews": [{
+        "author_name": "Jane Doe",
+        "author_image": "assets\/img\/person-01.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Morbi varius orci in rhoncus posuere. Sed cursus urna ut sem rhoncus lacinia. Praesentac velit dignissim, mollis purus quis, sollicitudin eros"
+    }, {
+        "author_name": "Norma Brown",
+        "author_image": "assets\/img\/person-02.jpg",
+        "date": "09.05.2016",
+        "rating": 4,
+        "review_text": "Donec nec tristique sapien. Aliquam ante felis, sagittis sodales diam sollicitudin, dapibus semper turpis"
+    }],
+    "marker_color": "#2196f3"
 }];
