@@ -1,5 +1,5 @@
 function loadColor(action, newColor){
-    $.ajax({
+    /*$.ajax({
         url: "assets/misc/customizer.php",
         method: "POST",
         cache: false,
@@ -22,6 +22,7 @@ function loadColor(action, newColor){
             console.log(e);
         }
     });
+	*/
 }
 
 function createCustomizer(defaultColor) {
