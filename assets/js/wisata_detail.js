@@ -53,13 +53,13 @@ simpleMap(_latitude,_longitude, element);
 
 var others_recommend=[];
 for(var i=0;i<mapData.length;i++){
-	if((mapData[i]['city']==detail['city']) && (mapData[i]['category']==detail['category']) ){
+	if((mapData[i]['city']==detail['city']) && (mapData[i]['category']==detail['category'])){
 		others_recommend.push(mapData[i]);
 	}
 }
 
 
-for(var i=0;i<others_recommend.length;i++){
+for(var i=0;i<3;i++){
 	recommendation_detail += '<div class="col-md-4 col-sm-4"><div class="item" data-id="'+others_recommend[i]["id"]+'"><a href="'+others_recommend[i]["url"]+'"><div class="description"><div class="label label-default">'+others_recommend[i]["category"]+'</div><h3>'+others_recommend[i]["title"]+'</h3><h4>'+others_recommend[i]["location"]+'</h4></div>'+
                                     '<div class="image bg-transfer" style="background-image: url(&quot;assets/img/items/1.jpg&quot;);"><img src="'+others_recommend[i]["gallery"][0]+'" alt=""></div></a>'+
                                         '<div class="additional-info"><div class="rating-passive" data-rating="'+others_recommend[i]["rating"]+'"><span class="stars"></span>'+
